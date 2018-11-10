@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <script src="calc.js"></script>
+    <link href="calc.css" rel="stylesheet">
+</head>
+<body>
+<form name="calculator" id="calculator">
+
+    <input name="calcWindow" id="display" type="text" readonly="true">
+
+    <button type="button" id="keyA" value="" onclick="document.calculator.calcWindow.value=''"/>C</button>
+
+    <button type="button" id="key" value="1" onclick="document.calculator.calcWindow.value+=1">1</button>
+
+    <button type="button" id="key" value="2" onclick="document.calculator.calcWindow.value+=2">2</button>
+
+    <button type="button" id="key" value="3" onclick="document.calculator.calcWindow.value+=3">3</button>
+    <br>
+    <button type="button" id="key" value="4" onclick="document.calculator.calcWindow.value+=4">4</button>
+
+    <button type="button" id="key" value="5" onclick="document.calculator.calcWindow.value+=5">5</button>
+
+    <button type="button" id="key" value="6" onclick="document.calculator.calcWindow.value+=6">6</button>
+
+    <button type="button" id="key" value="7" onclick="document.calculator.calcWindow.value+=7">7</button>
+    <br>
+    <button type="button" id="key" value="8" onclick="document.calculator.calcWindow.value+=8">8</button>
+
+    <button type="button" id="key" value="9" onclick="document.calculator.calcWindow.value+=9">9</button>
+
+    <button type="button" id="key" value="0" onclick="document.calculator.calcWindow.value+=0">0</button>
+
+    <button type="button" id="keyA" value="-" onclick="document.calculator.calcWindow.value+='-'">-</button>
+    <br>
+    <button type="button" id="keyA" value="^" onclick="document.calculator.calcWindow.value+='^'">^</button>
+
+    <button type="button" id="keyA" value="+" onclick="document.calculator.calcWindow.value+='+'">+</button>
+
+    <button type="button" id="keyA" value="*" onclick="document.calculator.calcWindow.value+='*'">*</button>
+
+    <button type="button" id="keyA" value="/" onclick="document.calculator.calcWindow.value+='/'">/</button>
+
+
+
+    <button type="button" id="keyA" value="=" onclick="document.calculator.calcWindow.value=eval(calculator.calcWindow.value)">=</button>
+
+
+
+    math.pow is doing addition for some reason
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
